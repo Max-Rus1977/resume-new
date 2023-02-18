@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/staile.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Resume</title>
+</head>
+<body>
+<div class="body-wrapper">
+  <header class="header container row">
+    <div class="header__box-my-photo df-al-ju-center">
+      <div class="my-photo">
+        <img class="width100" src="img/my-photo1.jpg" alt="Моё фото">
+      </div>
+    </div>
+    <div class="header__text col-auto">
+      <h2 class="text-center">Максим Русанов</h2>
+      <p class="text-center">WEB Developer</p>
+    </div>
+  </header>
+  <main class="main container row">
+    <aside class="aside">
+      <section class="adres sections-line">
+        <h3 class="address__title">Адрес:</h3>
+        <p class="aside__address fz-22 text-center">Россия, Ростовская область, гор. Таганрог.</p>
+      </section>
+      <section class="contacts sections-line">  
+        <h3 class="contacts__title">Контакты:</h3>
+        <p class="aside__phon fz-22 margin-top-20">Телефон: 
+          <a class="aside__link-phon" href="tel:+79043464517">
+            <span class="hover-phon-main">+7(904) 346 45 17</span>
+            <span class="hover-phon">+7(904) 346 45 17</span> 
+          </a>
+        </p>
+        <div class="aside__box-lines">
+          <div class="box-github df-ju-center fz-22">
+            <p>GitHub репозиторий:</p><a href="https://github.com/Max-Rus1977" target="blank">
+              <img class="hover-git-img" src="img/githubWC.png" alt="Ссылка на github">
+              <span class="hover-git-text">перейти ... →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="skills sections-line">
+        <h3 class="skills__title">Навыки:</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>
+            <ul>
+              <li>redux</li>
+              <li>react-router-dom</li>
+            </ul>
+          </li>
+          <li>Node</li>
+          <li>Git</li>
+          <li>PhotoShop</li>
+          <li>Figma</li>
+          <li>Английский 'A-1'</li>
+        </ul>
+      </section>
+    </aside>
+    <article class="article col-auto">
+      <section class="about-my">
+        <h3 class="section-title">Обо мне</h3>
+        <p >Умею работать и разбираться в поставленных задачах. Стремлюсь к 
+          горизонтальному росту в карьере, то есть junior, middle, senior. 
+        </p>
+        <p class="margin-top-40">Имею хорошие знания HTML5, CSS3. Средние знания JavaScript, Git. Начальные React,
+          redux, react-router-dom, Git, TypeScript и Node.
+        </p> 
+        </section>
+      <section>
+        <h3 class="section-title">МОИ ПЕТ-ПРОЕКТЫ</h3>
+        <div class="wrapper-box-lins row">
+          <div class="box-lins col">
+            <p>Todo React-Redux</p>
+            <p>Ссылка на сайт: <a target="blank" href="https://max-rus1977.github.io/todo-react-redux/">https://git...site</a></p>
+            <p>Ссылка на код:  <a target="blank" href="https://github.com/Max-Rus1977/todo-react-redux.git">https://git...code</a></p>
+          </div>
+          <div class="box-lins col">
+            <p>Морской бой JS</p>
+            <p>Ссылка на сайт: <a target="blank" href="https://max-rus1977.github.io/sea-battle-2/">https://git...site</a></p>
+            <p>Ссылка на код: <a target="blank" href="https://github.com/Max-Rus1977/sea-battle-2.git">https://git...code</a></p>
+          </div>
+        </div>
+        <div class="box-comment">
+          <p class="margin-top-40 pet-description">Игра морской бой написана больше года назад. Перетягивание кораблей в ней реализованно с помощью Drag’n’Drop.</p>
+          <p class="margin-top-40 pet-description"> В Todo, реализованы: добавление, удаление и изменение задач. Также задачи сортируются по завершённым и не завершённым. Использованы технологии react, redux. Deploy на github выполнен с помощью пакета gh-pages</p>
+          <!-- <p class="margin-top-20">Более подробное описание в файле README на github</p> -->
+        </div>
+        <div class="wrapper-box-lins row">
+          <div class="box-lins col">
+            <p>ИнстаБоты</p>
+            <p>Ссылка на сайт: <a target="blank" href="https://max-rus1977.github.io/Instabots/">https://git...site</a></p>
+            <p>Ссылка на код:  <a target="blank" href="https://github.com/Max-Rus1977/Instabots/">https://git...code</a></p>
+          </div>
+          <div class="box-lins col">
+            <p>Стамотология</p>
+            <p>Ссылка на сайт: <a target="blank" href="https://max-rus1977.github.io/Smart-dentistry/">https://git...site</a></p>
+            <p>Ссылка на код: <a target="blank" href="https://github.com/Max-Rus1977/Smart-dentistry">https://git...code</a></p>
+          </div>
+        </div>
+        <div class="box-comment">
+          <p class="margin-top-40 pet-description">Вёрстка адаптирована под все разрешения экрана до 320px, осуществлялась с помощью сетки на подобии Bootstrap созданной самостоятельно. Слайдер реализован с помощью плагина  Owl Carousel. На сайте присутствуют табы, аккордеон, формы обратной связи с валидацией и регистрации, модальные окна и небольшая анимация, реализованная с помощью JS и CSS3.</p>
+          <p class="margin-top-20 pet-description">В файле validation.txt корневых каталогов сайтов находятся ссылки на прохождение теста PageSpeed и валидации HTML и CSS кода.</p>
+        </div>
+      </section>
+      <section>
+        <h3 class="section-title">ОБРАЗОВАНИЕ</h3>
+        <p>Самостоятельно обучался web разработке. Основные знания по JS получены на сайте learn.JS. Так же обучался по видео из you-tube и документации</p>
+        <p class="margin-top-20">Имею средне специальное образование, включающее в себя 11 классов школы №16 и Таганрогский технологический техникум питания и торговли повара 4 разряда.</p>
+      </section>
+      <section>
+        <h3 class="section-title">МЕСТА РАБОТЫ</h3>
+          <p>Основная сфера дохода начиная с 2008 года работа на себя в сфере строительства.  Также начиная с этого времени создал и руководил бригадой по таможенным досмотрам.</p>
+          <p class="margin-top-40">Последнее официальное место работы “Запсибгазпром - газификация”. Работа вахтовым методом:</p>
+          <p class="margin-top-10">Магаданская область, гор Магадан. Строительство жилого дома. Должность - монтажник.</p>
+          <p class="margin-top-10">о. Сахалин, гор Южно-Сахалинск. Строительство военного госпиталя. Должность - облицовщик плиточник.</p>
+          <p class="margin-top-10">Хабаровский край, посёлок Тейсин. Военный, закрытый объект.  Должность - монтажник.</p>
+      </section>
+    </article>
+  </main>
+</div>
+</body>
+</html> 
+
+ 
+
+ 
+
+ 
